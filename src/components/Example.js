@@ -9,6 +9,11 @@ const Example = () => {
 			<div>
 				<h2>Name der Aufgabe</h2>
 				<p>Beschreibung der aufgabe</p>
+				<pre className="bg-gray-800 text-gray-200 p-4 rounded-md">
+					<code className="text-xs">
+						Hier wird der Code der Aufgabe dargestellt
+					</code>
+				</pre>
 				<code>Evt Code beispiele zur Aufgabe</code>
 			</div>
 			<Solution name="World"/>
