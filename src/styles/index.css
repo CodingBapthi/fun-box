@@ -6,3 +6,5 @@
 @tailwind components;
 @tailwind utilities;
 
+/* import prism css*/
+@import "prismjs/themes/prism.css";
