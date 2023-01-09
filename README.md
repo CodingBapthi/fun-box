@@ -1,11 +1,14 @@
 # FunBox
 
-Das Repo enthält verschiedene Code Solutions die aus Übungen oder Aufgaben verschiedener Seiten (zb Codewars) oder Aufgaben von anderen Entwicklern entstehen können. Für dies wird ein Branch eröffnet mit einem Präfix für die Herkunft und den Namen der Aufgabe.
+Das Repo enthält verschiedene Code Solutions, die aus Übungen oder Aufgaben verschiedener Seiten (zb Codewars) oder Aufgaben von anderen Entwicklern entstehen können. Dafür wird ein Branch eröffnet mit einem Präfix für die Herkunft und dem Namen der Aufgabe.
 
 Beispiel: prefix/aufgabenname (Die aufgabe wird in Kebab Case geschrieben)
 ```
 <codewars>/<word-finder> 
 ```
+Dieses Repo verwendet folgende Dependencies:
+- Tailwind CSS (https://tailwindcss.com/) für die Styles
+- PrismJS (https://prismjs.com/) für das Syntax Highlighting der Code Snippets
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
