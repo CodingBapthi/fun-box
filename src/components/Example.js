@@ -5,7 +5,8 @@ import Card from "./Card";
 
 // Die Aufgaben sind so zu lösen, das über die nutzung der Komponenten die Aufgabe ausgegeben werden kann
 // und die Lösung dargestellt wird. In der Example wird die Aufgabe erstellt und alle Informationen hierzu mit eingebunden.
-// Die Lösung wird in dieser als Komponente mit eingebunden.
+// Die Lösung wird in diser als Komponente mit eingebunden.
+const code = `const Example = (...props) => {true};`;
 const Example = () => {
 	useEffect(() => {
 		Prism.highlightAll();
@@ -14,10 +15,17 @@ const Example = () => {
 	const data = {
 		date: 'Jan 9, 2023',
 		topic: 'JavaScript',
-		title: 'Name der Aufgabe',
-		description: 'Beschreibung der Aufgabe!',
-		code: `const Example = (...props) => {true};`,
-		link: '#'
+		title: 'sumEveryOther',
+		description: 'Given a number, sum every second digit in that number. The question is from the Cassidoo weakly Newsletter',
+		code: `sumEveryOther(548915381)
+26 // 4 + 9 + 5 +8
+
+sumEveryOther(10)
+0
+
+sumEveryOther(1010.11)
+1 // 0+0+1`,
+		link: 'https://github.com/CodingBapthi/fun-box/blob/cassidoo/sumEveryOther/README.md'
 	}
 
 	return (
