@@ -1,6 +1,7 @@
 import Prism from 'prismjs';
-import { useEffect } from "react";
+import {useEffect} from "react";
 import Card from "./Card";
+
 const Solution = () => {
 	useEffect(() => {
 		Prism.highlightAll();
@@ -42,10 +43,14 @@ return sum;
 			<Card data={data}/>
 
 			<div className="w-full flex flex-col items-center">
-				<h2 className="text-center">Lösung der Aqufgabe</h2>
+				<h2 className="text-center">Lösung der Aufgabe</h2>
 				<div className="w-full md:w-1/2 lg:w-1/3 flex flex-col items-center p-4">
-					<input type="text" className="w-full text-gray-800 p-2 rounded-md focus:outline-none focus:shadow-outline" id="numberValue" />
-					<button className="w-full md:w-1/2 lg:w-1/3 py-2 rounded-md bg-yellow-500 text-gray-200 hover:bg-yellow-600 focus:outline-none focus:shadow-outline" onClick={runFunction}>Lösung</button>
+					<input type="text" className="w-full text-gray-800 p-2 rounded-md focus:outline-none focus:shadow-outline"
+								 id="numberValue"/>
+					<button
+						className="w-full md:w-1/2 lg:w-1/3 py-2 rounded-md bg-yellow-500 text-gray-200 hover:bg-yellow-600 focus:outline-none focus:shadow-outline"
+						onClick={runFunction}>Lösung
+					</button>
 					<p id="solution" className="text-xl font-bold mt-4"></p>
 				</div>
 			</div>

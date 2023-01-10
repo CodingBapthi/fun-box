@@ -12,7 +12,7 @@ const Example = () => {
 	}, []);
 
 	const data = {
-		date: 'Jan 9, 2023',
+		date: 'Jan 09, 2023',
 		topic: 'JavaScript',
 		title: 'sumEveryOther',
 		description: 'Given a number, sum every second digit in that number. The question is from the Cassidoo weakly Newsletter',
