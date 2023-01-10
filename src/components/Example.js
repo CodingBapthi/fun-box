@@ -6,7 +6,6 @@ import Card from "./Card";
 // Die Aufgaben sind so zu lösen, das über die nutzung der Komponenten die Aufgabe ausgegeben werden kann
 // und die Lösung dargestellt wird. In der Example wird die Aufgabe erstellt und alle Informationen hierzu mit eingebunden.
 // Die Lösung wird in diser als Komponente mit eingebunden.
-const code = `const Example = (...props) => {true};`;
 const Example = () => {
 	useEffect(() => {
 		Prism.highlightAll();
