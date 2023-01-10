@@ -22,7 +22,7 @@ const Solution = () => {
 	}
 
 	const data = {
-		date: 'Jan 9, 2023',
+		date: 'Jan 09, 2023',
 		topic: 'JavaScript',
 		title: 'Lösung der Aufgabe sumEveryOther',
 		description: 'Die übergebene Zahl wird in einen String umgewandelt und dann in einer for Schleife wird jede 2 Zahl addiert. Die Aufgabe ist aus dem Cassidoo Newsletter',
