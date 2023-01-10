@@ -1,11 +1,19 @@
-const Solution = (props) => {
+import Card from "./Card";
 
-	// Die aufgaben
+const Solution = () => {
+
+	const data = {
+		date: 'Jan 9, 2023',
+		topic: 'JavaScript',
+		title: 'Name der Aufgabe',
+		description: 'Beschreibung der Aufgabe!',
+		code: `const Example = (...props) => {true};`,
+		link: '#'
+	}
 
 	return (
 		<>
-			<h3>Hello {props.name}</h3>
-			<p>Die Lösung der Aufgabe</p>
+			<Card data={data}/>
 		</>
 	)
 }
