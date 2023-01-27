@@ -12,11 +12,11 @@ const Example = () => {
 	}, []);
 
 	const data = {
-		date: 'Jan 9, 2023',
+		date: 'Jan 22, 2023',
 		topic: 'JavaScript',
-		title: 'Name der Aufgabe',
-		description: 'Beschreibung der Aufgabe!',
-		code: `const Example = (...props) => {true};`,
+		title: 'Spin Wheel Challenge',
+		description: 'Implement a “spin the wheel” game where the player can bet on each spin of a wheel and either double their money, lose their money, or keep their money.',
+		code: `noExample`,
 		link: '#'
 	}
 

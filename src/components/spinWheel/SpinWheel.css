@@ -1,0 +1,30 @@
+.spin-wheel {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.spin-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.reset-button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
